@@ -18,6 +18,7 @@ function nowServing(katzDeliLine){
 }
 
 console.log(nowServing(katzDeliLine))
+console.log(nowServing(katzDeliLine))
 
 function currentLine(katzDeliLine){
   if (deliLine.length == 0){
