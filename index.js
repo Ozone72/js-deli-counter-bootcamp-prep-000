@@ -39,4 +39,5 @@ function currentLine(katzDeliLine){
 return message
 }
 
+takeANumber(katzDeliLine, "Brett")
 console.log(currentLine(katzDeliLine))
