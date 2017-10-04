@@ -2,7 +2,7 @@ var katzDeliLine = [];
 
 function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name)
-  console.log(`Welocme, ${name}. You are number ${katzDeliLine.length} in line.`)
+  console.log(`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`)
   return katzDeliLine.length
 }
 
@@ -13,4 +13,3 @@ takeANumber(katzDeliLine, "Jane")
 takeANumber(katzDeliLine, "Steph")
 takeANumber(katzDeliLine, "Rob")
 takeANumber(katzDeliLine, "Vincent")
-
