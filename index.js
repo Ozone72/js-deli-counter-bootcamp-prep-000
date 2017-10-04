@@ -5,6 +5,9 @@ function takeANumber(katzDeliLine, name){
   return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`)
 }
 
+takeANumber(katzDeliLine, "Orin")
+takeANumber(katzDeliLine, "Celeste")
+
 function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0){
     return `Currently serving ${katzDeliLine.shift()}.`
@@ -26,3 +29,5 @@ function currentLine(katzDeliLine){
     return message
   }
 }
+
+
