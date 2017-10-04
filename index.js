@@ -32,7 +32,8 @@ function currentLine(katzDeliLine){
     } else {
       message+=`${i+1}. ${katzDeliLine[i]}, `
     }
-    return message
   }
+  return message
 }
+
 console.log(currentLine(katzDeliLine))
