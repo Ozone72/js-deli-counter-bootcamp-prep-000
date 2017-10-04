@@ -38,3 +38,5 @@ function currentLine(katzDeliLine){
 }
 return message
 }
+
+console.log(currentLine(katzDeliLine))
