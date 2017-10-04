@@ -30,7 +30,7 @@ function currentLine(katzDeliLine){
     for (var i = 0; i < katzDeliLine.length; i++) {
       if( i === katzDeliLine.length-1){
       message+=`${i+1}. ${katzDeliLine[i]}`
-      } 
+      }
       else {
       message+=`${i+1}. ${katzDeliLine[i]}, `
     }
